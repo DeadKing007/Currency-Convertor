@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">currency</string>
+    <string name="Enter_Currency">Enter Currency in Dollar</string>
+    <string-array name="Currencies">
+        <item>Choose Currency</item>
+        <item>INR</item>
+        <item>EURO</item>
+    </string-array>
+    <string name="Results">Results</string>
 </resources>
