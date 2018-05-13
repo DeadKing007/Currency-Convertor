@@ -41,10 +41,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         }
         switch (position){
             case 1:
-                results.setText(" "+String.format("%.2f",c * 67.8));
+                results.setText(" "+String.format("%.2f",c * Standards.INR));
                 break;
             case 2:
-                results.setText(" "+String.format("%.2f",c * 0.84));
+                results.setText(" "+String.format("%.2f",c * Standards.EURO));
                 break;
             default:
                 results.setText("Choose Currency");
